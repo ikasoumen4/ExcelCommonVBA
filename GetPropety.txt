@@ -1,0 +1,14 @@
+    ActiveCell(1, 1) = ActiveCell.Address
+    ActiveCell(1, 2).Formula = ActiveCell.Address
+    ActiveCell(1, 2).Formula = ActiveCell.Name.Name
+    ActiveCell(1, 2) = ActiveCell(1, 2)
+    ActiveCell(1, 3) = ActiveCell.HorizontalAlignment
+    ActiveCell(1, 4) = ActiveCell.VerticalAlignment
+    ActiveCell(1, 5) = ActiveCell.WrapText
+    ActiveCell(1, 6) = ActiveCell.Orientation
+    ActiveCell(1, 7) = ActiveCell.AddIndent
+    ActiveCell(1, 8) = ActiveCell.IndentLevel
+    ActiveCell(1, 9) = ActiveCell.ShrinkToFit
+    ActiveCell(1, 10) = ActiveCell.ReadingOrder
+    ActiveCell(1, 11) = ActiveCell.MergeCells
+    ActiveCell(1, 12) = ActiveCell.Locked
